@@ -36,7 +36,7 @@ function ContactForm() {
     try {
       setIsLoading(true);
       const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_BASE_URL}contact`,
+        `https://whatsapp-node-z2fc.onrender.com/api/v1/contact`,
         userInput
       );
 
