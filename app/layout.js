@@ -10,10 +10,24 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Sagar Prajapati - Software Developer",
-  description:
-    "This is the portfolio of Sagar Prajapati. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+  title: "Sagar Prajapati | Full Stack Developer",
+  description: "Sagar Prajapati – Full Stack Developer skilled in Node.js, React, MongoDB, APIs, and Backend Systems.",
+  keywords: [
+    "Sagar Prajapati",
+    "Full Stack Developer",
+    "Node.js Developer",
+    "React Developer",
+    "Backend Developer India"
+  ],
+  openGraph: {
+    title: "Sagar Prajapati | Full Stack Developer",
+    description: "Professional portfolio of Sagar Prajapati",
+    url: "https://sagar-portfolio-lilac.vercel.app/",
+    siteName: "Sagar Portfolio",
+    type: "website",
+  }
 };
+
 
 export default function RootLayout({ children }) {
   return (
@@ -31,3 +45,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+

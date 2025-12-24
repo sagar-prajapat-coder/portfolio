@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sagar-portfolio-lilac.vercel.app/sitemap.xml
