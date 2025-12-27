@@ -115,6 +115,12 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Express</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">PHP</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Larevel</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Codelgniter</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MySql</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
